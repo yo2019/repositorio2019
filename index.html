@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>conversa Javascript FullStack</title>
+    <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <!-- <nav class="navbar navbar-light bg-warning">
+      <a class="navbar-brand mx-auto" href="/">Javascript FullStack convesa</a>
+    </nav> -->
+
+    <div id="nickWrap" class="card col-md-4 mx-auto mt-5">
+      <div class="card-header">
+        <h3>Enter your Username</h3>
+      </div>
+      <p id="nickError"></p>
+      <div class="card-body">
+        <form id="nickForm">
+          <input id="nickname" type="text" class="form-control"/>
+          <input type="submit" class="btn btn-warning btn-block mt-2"/>
+        </form>
+      </div>
+    </div>
+
+    <div class="container" id="contentWrap">
+      <div class="row mt-1">
+
+        <div class="col-md-1 offset-md-1">
+          <img src="../luces.gif" style="position:absolute; left:0px; top:0px; width:446px; height: 450px;">
+            <div class="card-img-overlay">
+                                <h1>
+                                  <span id="chat1" class="green">No registrado en MySQL</span>
+                                  <span id="chat3" class="red">0</span>
+                                </h1>
+
+                                <form id="key1"  >
+                                  <button style="position:absolute; top:200px; left: 0px; width:90px; height:50px; font-size: 30px; " class="btn btn-warning">$100</button>
+                                </form>
+                                <form id="key2"  >
+                                  <button style="position:absolute; top:200px; left:100px;width:90px; height:50px; font-size: 30px; " class="btn btn-warning">$200</button>
+                                </form>
+                                <form id="key3"  >
+                                  <button style="position:absolute; top:200px; left:200px;width:90px; height:50px; font-size: 30px; " class="btn btn-warning">$300</button>
+                                </form>
+                                <form id="key4"  >
+                                  <button style="position:absolute; top:200px; left:300px;width:90px; height:50px; font-size: 30px; " class="btn btn-warning">$400</button>
+                                </form>
+                                <form id="U1" class="card-footer" >
+                                  <button style="position:absolute; top:280px; width:190px; height:80px; font-size: 30px; " class="btn btn-warning"><i class="fas fa-location-arrow"></i>Envia</button>
+                                </form>
+                    
+                                      
+              </div>
+
+          </div>
+        </div>    
+
+          <!-- USERS SECTION-->
+          <!-- <div class="card">
+            <div class="card-header">
+              <h3>Users</h3>
+            </div>
+            <div class="card-body">
+              <div id="usernames"></div>
+            </div>
+          </div> -->
+
+
+
+      </div>
+
+    </div>
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/main.js"></script>
+
+    
+
+  </body>
+</html>

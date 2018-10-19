@@ -1,0 +1,63 @@
+body {
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#contentWrap {
+  display: none;
+}
+
+.error {
+  color: red;
+}
+
+.whisper {
+  color: gray;
+  font-style: italic;
+}
+
+
+span.blue {
+  background: blue;
+   border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 3.6em; 
+}
+
+
+span.red {
+  background: red;
+   border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.3em;
+  margin-right: 15px;
+  text-align: center;
+  width: 9.6em; 
+}
+
+span.green {
+  background: green;
+   border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.3em;
+  margin-right: 15px;
+  text-align: center;
+  width: 9.6em; 
+}
+
